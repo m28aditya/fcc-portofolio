@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(
+        15deg,
+        rgba(0, 0, 0, 1),
+        rgba(255, 0, 119, 0)
+      ),url(img/Jumbotron.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand, .nav-link{
+    color: white !important;
+    opacity: 1;
+    font-weight: 600;
+
+}
+.nav-link{
+    padding: 0 10px !important;
+}
+
+.nav-link:hover{
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    height: 100vh;
+    position: relative;
+    background-color:rgba(245, 245, 245,0.5);
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer li {
+    font-size: 2em;
+    margin: 0 10px;
+  }
+  
+  footer li a {
+    color: white;
+  }
+  footer li a:hover{
+      color: whitesmoke;   
+    }
+  
+  #projects h2{
+      color: whitesmoke;
+  }
+
+  #about{
+      background-color: whitesmoke;
+  }
+
+  #contact{
+      background-color: white;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  
+  /* Media Query ketika dibuka di mobile */
+  @media (max-width: 576px) {
+    .btn-github {
+      width: 90%;
+    }
+  
+    .navbar {
+      background-color: black !important;
+    }
+  }
